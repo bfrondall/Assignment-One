@@ -1,6 +1,18 @@
 /* CSS HERE */
 
-
+.noise: :after{
+	content: "";
+	background: 
+	url(https://giphy.com/gifs/vhs-positive-vhspositive-3o7qDTjU5TVYQc6Z20);
+	opacity: 0.1;
+	background-size: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+	z-index: 99;
+}
 /* Try: updating the background to a gradient */
 
 

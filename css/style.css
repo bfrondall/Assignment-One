@@ -1,10 +1,10 @@
 /* CSS HERE */
 
-.noise: :after{
+.noise::after{
 	content: "";
 	background: 
-	url(https://giphy.com/gifs/vhs-positive-vhspositive-3o7qDTjU5TVYQc6Z20);
-	opacity: 0.1;
+	url(https://media.giphy.com/media/3o7qDTjU5TVYQc6Z20/giphy.gif);
+	opacity: 0.5;
 	background-size: 100%;
 	top: 0;
 	left: 0;

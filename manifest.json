@@ -1,12 +1,12 @@
 {
     "manifest_version": 2, 
     "name": "UPDATE: Name of your plugin",
-    "description": "UPDATE: Description of your plugin",
+    "description": "VHS",
     "version": "1.0",
     "permissions": ["activeTab"],
     "content_scripts": [
         {
-            "matches": ["https://*.uleth.ca/"],
+            "matches": ["https://www.uleth.ca/welcome-university-lethbridge"],
             "allFrames": true,
             "js": ["/js/jquery.js", "/js/content.js"],
             "css": ["/css/style.css"]

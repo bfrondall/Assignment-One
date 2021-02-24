@@ -1,8 +1,8 @@
 /* CSS HERE */
 
-.noise::after{
+.noise{
 	content: "";
-	background: 
+	background-image: 
 	url(https://media.giphy.com/media/3o7qDTjU5TVYQc6Z20/giphy.gif);
 	opacity: 0.5;
 	background-size: 100%;
@@ -12,6 +12,63 @@
 	right: 0;
 	position: fixed;
 	z-index: 99;
+}
+
+.shakytext{
+	position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 10px;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(
+                    #FFFFFF, 
+                    #191919);
+  animation: .8s shake infinite alternate;
+}
+
+.buttonshake{
+	position: relative;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 10px;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  background-size: 120% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -ms-background-clip: text;
+  -ms-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  background-image: linear-gradient(
+                    #e8fd02, 
+                    #fbf604);
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-2deg); }
+  5% { transform: skewX(2deg); }
+  10% { transform: skewX(-2deg); }
+  15% { transform: skewX(2deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
 }
 /* Try: updating the background to a gradient */
 

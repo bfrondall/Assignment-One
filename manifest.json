@@ -1,7 +1,7 @@
 {
     "manifest_version": 2, 
-    "name": "UPDATE: Name of your plugin",
-    "description": "VHS",
+    "name": "VHS",
+    "description": "VHS Overlay",
     "version": "1.0",
     "permissions": ["activeTab"],
     "content_scripts": [
@@ -14,7 +14,8 @@
      ],
     "action": {
         "default_icon": {
-            "32":"/images/icon.png"
+            //Icon was created by an artist named KennVel from Reddit: https://www.reddit.com/r/bindingofisaac/comments/64c0eh/vhs_tape_chance_to_fire_a_pixellooking_electric/ //
+            "128":"/images/VHS icon.png" 
         },
         "default_popup": "popup.html"
     },
